@@ -18,15 +18,17 @@ body {
     text-align: center; 
 }
 
-@media screen and () {
+@media screen and (max-width: 760px) {
     
     .container {
-        padding-block: 30vw;
+        width: 100vw;
     }
 
-    .col {
-        width: 100%;
+    .row-cols-5>* {
+        flex: 50 50 auto;
+        width: 50%!important;
     }
+
+
 }
 
-$card-height: 100% 
