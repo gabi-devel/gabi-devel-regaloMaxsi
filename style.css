@@ -21,14 +21,13 @@ body {
 @media screen and (max-width: 760px) {
     
     .container {
-        width: 100vw;
+        display: inline-block;
     }
 
     .row-cols-5>* {
         flex: 50 50 auto;
-        width: 50%!important;
+        width: 100%!important;
     }
-
 
 }
 
