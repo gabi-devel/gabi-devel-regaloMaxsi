@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff6f6!important;
+}
+
+.col-sm {
+    display: -ms-inline-grid;
+    align-items: center;
+}
+
+.col {
+    text-align: center; 
+}
+
+@media screen and () {
+    
+    .container {
+        padding-block: 30vw;
+    }
+
+    .col {
+        width: 100%;
+    }
+}
+
+$card-height: 100% 
