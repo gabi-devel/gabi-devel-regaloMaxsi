@@ -22,10 +22,11 @@ body {
     
     .container {
         display: inline-block;
+        padding-left: 6px;
     }
 
     .row-cols-5>* {
-        flex: 50 50 auto;
+        flex: auto;
         width: 100%!important;
     }
 
